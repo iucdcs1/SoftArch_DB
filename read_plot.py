@@ -26,5 +26,5 @@ plt.grid()
 plt.xticks(df['Number of operations'])
 plt.yticks(range(0, 140, 20))
 
-plt.savefig('/mnt/data/database_execution_time_comparison.png')
+plt.savefig('database_comparison.png')
 plt.show()
